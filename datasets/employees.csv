@@ -1,0 +1,51 @@
+employee_id,role,tasks_completed,productivity_score,assigned_campaigns
+1,Content Strategist,134,95.86,5
+2,Social Media Manager,168,56.44,20
+3,Content Strategist,103,86.68,11
+4,Content Strategist,93,92.13,3
+5,Content Strategist,91,54.92,10
+6,Marketing Analyst,69,67.01,5
+7,Graphic Designer,189,77.31,4
+8,Marketing Analyst,149,82.99,18
+9,Content Strategist,45,80.95,16
+10,Content Strategist,80,98.71,9
+11,Video Editor,102,89.08,19
+12,Account Manager,66,52.43,11
+13,Marketing Analyst,164,53.41,6
+14,Content Strategist,107,54.04,19
+15,Content Strategist,41,89.42,5
+16,Marketing Analyst,45,89.73,8
+17,Graphic Designer,186,95.94,13
+18,Video Editor,149,86.06,15
+19,Marketing Analyst,141,67.38,8
+20,Social Media Manager,123,93.95,5
+21,Graphic Designer,162,80.35,19
+22,Social Media Manager,148,60.12,9
+23,Graphic Designer,150,84.06,11
+24,Graphic Designer,169,92.01,9
+25,Social Media Manager,128,96.91,20
+26,Social Media Manager,170,73.68,1
+27,Social Media Manager,109,69.29,15
+28,Account Manager,119,87.6,14
+29,Graphic Designer,113,61.91,10
+30,Social Media Manager,132,59.98,16
+31,Content Strategist,142,54.71,14
+32,Video Editor,161,56.47,18
+33,Graphic Designer,198,85.17,12
+34,Content Strategist,104,90.22,3
+35,Video Editor,131,71.9,12
+36,Content Strategist,102,89.7,9
+37,Content Strategist,144,80.55,7
+38,Account Manager,61,60.67,10
+39,Video Editor,44,81.8,6
+40,Marketing Analyst,188,95.92,12
+41,Marketing Analyst,125,77.46,18
+42,Marketing Analyst,68,85.29,8
+43,Graphic Designer,143,70.86,11
+44,Content Strategist,104,50.65,1
+45,Account Manager,92,79.84,5
+46,Video Editor,66,93.28,2
+47,Content Strategist,167,65.07,9
+48,Account Manager,195,74.13,5
+49,Video Editor,12,62.08,12
+50,Account Manager,10,54.86,13
