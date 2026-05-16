@@ -2,7 +2,16 @@
 
 An advanced business intelligence and analytics dashboard designed for Nigerian marketing agencies.
 
-This platform combines data analytics, machine learning, interactive visualizations, and campaign intelligence to help agencies monitor performance, analyze revenue trends, evaluate employee productivity, and predict campaign ROI.
+This platform combines data analytics, machine learning, predictive analytics, interactive visualizations, and campaign intelligence to help agencies monitor performance, analyze revenue trends, evaluate employee productivity, and predict campaign ROI.
+
+The project also demonstrates containerized application deployment using Docker alongside cloud based Streamlit deployment workflows.
+
+---
+
+# Live Demo
+
+Streamlit App:  
+https://your-streamlit-link.streamlit.app/
 
 ---
 
@@ -30,8 +39,135 @@ This project simulates a real-world business intelligence platform capable of:
 - Analyzing client industries
 - Comparing advertising platforms
 - Predicting campaign ROI using machine learning
+- Delivering interactive executive business insights
+- Supporting containerized deployment environments
 
 The system was designed specifically around the operational structure of modern Nigerian marketing agencies.
+
+---
+
+# Separated Concerns and System Architecture
+
+The project follows separated concerns architecture to improve scalability, maintainability, modularity, and enterprise software organization.
+
+The system is divided into multiple independent layers, where each layer is responsible for a specific operational concern.
+
+---
+
+# Frontend Layer
+
+Responsible for dashboard rendering, visualization, user interaction, and business intelligence presentation.
+
+## Technologies
+- Streamlit
+- Plotly
+
+## Responsibilities
+- Interactive dashboards
+- KPI visualization
+- Dynamic filtering
+- Business intelligence rendering
+- Executive reporting interfaces
+- User interaction workflows
+
+## Frontend Components
+
+```text
+app.py
+```
+
+---
+
+# Backend Layer
+
+Responsible for business logic, workflow orchestration, enterprise processing, and analytics computation.
+
+## Technologies
+- Python
+- Pandas
+- NumPy
+- SQLite
+
+## Responsibilities
+- Campaign analytics computation
+- Data preprocessing
+- Revenue analysis
+- Productivity calculations
+- Workflow management
+- Database interaction
+- Data transformation pipelines
+
+## Backend Components
+
+```text
+main.py
+database.py
+generate_dataset.py
+```
+
+---
+
+# Machine Learning Layer
+
+Responsible for predictive analytics, campaign intelligence, and ROI prediction systems.
+
+## Technologies
+- Scikit-learn
+- Linear Regression
+
+## Capabilities
+- Campaign ROI prediction
+- Predictive business analytics
+- Trend analysis
+- Performance forecasting
+
+## Machine Learning Techniques
+- Linear Regression
+- Label Encoding
+- Train/Test Split Validation
+- R² Accuracy Evaluation
+
+---
+
+# Data Layer
+
+Responsible for enterprise dataset management and structured business records.
+
+## Datasets
+- Campaign performance
+- Client analytics
+- Employee productivity
+- Revenue intelligence
+
+## Dataset Structure
+
+```text
+datasets/
+├── campaigns.csv
+├── clients.csv
+├── employees.csv
+└── revenue.csv
+```
+
+---
+
+# Infrastructure and Deployment Layer
+
+Responsible for deployment workflows, repository management, cloud accessibility, and containerized infrastructure.
+
+## Technologies
+- Docker
+- Git
+- GitHub
+- Streamlit Cloud
+
+## Responsibilities
+- Containerized deployment
+- Cloud deployment
+- Version control management
+- Repository workflows
+- Portable runtime environments
+- Infrastructure scalability
 
 ---
 
@@ -68,6 +204,12 @@ Predict expected campaign ROI using:
 - Engagement rate
 - Advertising platform
 
+## Interactive Business Intelligence
+- Dynamic filtering
+- Interactive visualizations
+- Executive reporting dashboards
+- Business analytics rendering
+
 ## Downloadable Reports
 - Export campaign analytics reports as CSV files
 
@@ -95,6 +237,10 @@ The model predicts campaign ROI using historical campaign performance data.
 - Plotly
 - Scikit-learn
 - NumPy
+- Docker
+- Git
+- GitHub
+- Streamlit Cloud
 
 ---
 
@@ -104,6 +250,7 @@ The model predicts campaign ROI using historical campaign performance data.
 marketing-agency-business-intelligence-system/
 │
 ├── assets/
+│
 ├── datasets/
 │   ├── campaigns.csv
 │   ├── clients.csv
@@ -111,14 +258,19 @@ marketing-agency-business-intelligence-system/
 │   └── revenue.csv
 │
 ├── screenshots/
+│   ├── dashboard.png
+│   └── analytics.png
 │
 ├── agency_data.db
 ├── app.py
 ├── database.py
 ├── generate_dataset.py
 ├── main.py
+├── Dockerfile
+├── .dockerignore
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
@@ -135,6 +287,28 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run app.py
+```
+
+---
+
+# Run with Docker
+
+## 1. Build Docker Image
+
+```bash
+docker build -t marketing-dashboard .
+```
+
+## 2. Run Docker Container
+
+```bash
+docker run -p 8501:8501 marketing-dashboard
+```
+
+## 3. Open in Browser
+
+```text
+http://localhost:8501
 ```
 
 ---
@@ -197,6 +371,22 @@ Planned future upgrades include:
 - Real-time campaign monitoring
 - PostgreSQL integration
 - Cloud deployment optimization
+- Kubernetes deployment workflows
+- Enterprise infrastructure scaling
+
+---
+
+# Project Goal
+
+The objective of this project is to demonstrate:
+- Business intelligence engineering
+- Interactive analytics systems
+- Machine learning applications
+- Predictive analytics
+- Dashboard engineering
+- Data visualization
+- Enterprise deployment workflows
+- Containerized infrastructure engineering
 
 ---
 
@@ -211,5 +401,5 @@ University of the People
 
 # License
 
-This project demonstrates the practical application of machine learning, business intelligence, interactive analytics, and dashboard engineering in solving real-world agency reporting and campaign analysis challenges.
+This project demonstrates the practical application of machine learning, predictive analytics, business intelligence engineering, interactive dashboard systems, and containerized deployment workflows in solving real-world marketing agency reporting and analytics challenges.
 
